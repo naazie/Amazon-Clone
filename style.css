@@ -1,0 +1,41 @@
+body{
+    text-align:  center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* align-items: center;
+    align-content: center; */
+
+}
+#box1 {
+    background-color: aqua;
+    /* align-self: center; */
+}
+#box2{
+    background-color: pink;
+    background-image: url("icons8-search-100.png");
+    background-size: contain;
+    flex-shrink: 0;
+    /* align-self: flex-end; */
+}
+#box3 {
+    background-color: darkkhaki;
+}
+#box4 {
+    background-color: crimson;
+}
+#box5{
+    background-color: lightsteelblue;
+}
